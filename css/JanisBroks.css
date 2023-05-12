@@ -5,6 +5,31 @@
     text-decoration: none;
 }
 
+.marginraksts {
+    margin-left: 5%;
+    padding-bottom: 4%;
+    padding-top: 2%;
+}
+
+.cellpad {
+    padding-top: 3%;
+}
+
+.virsraksts {
+    font-family: 'Roboto', sans-serif;
+    font-size: 250%;
+}
+
+.mazvirs {
+    font-family: 'Roboto', sans-serif;
+    font-size: 200%;
+}
+
+.mazakaisvirs {
+    font-family: 'Roboto', sans-serif;
+    font-size: 150%;
+}
+
 header{
     width: 100vw;
     height: 120px;
@@ -12,6 +37,25 @@ header{
     font-family: 'Poppins';
     font-size: 120%;
     color:#ffffff;
+}
+
+.ieksa {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+.pirmais {
+    margin-left: 4%;
+
+}
+.tabula {
+    table-layout: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+th {
+    width: 50%;
 }
 
 .hover-underline-animation {
