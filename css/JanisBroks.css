@@ -6,13 +6,73 @@
 }
 
 .marginraksts {
-    margin-left: 5%;
-    padding-bottom: 4%;
+    position:relative;
+    left: -20%;
+    margin-bottom: 4%;
     padding-top: 2%;
+    border-bottom: #0087ca 5px solid;
 }
+
 
 .cellpad {
     padding-top: 3%;
+}
+
+.floatr {
+  float:right;
+  width: 50%;
+  margin-left: 3%;
+  margin-right: 3%
+}
+
+.cena {
+  margin-top: 3%;
+  font-family: 'Poppins';
+  font-size: 130%;
+  font-weight: 800;
+  line-height: 120%;
+}
+
+.pieejamiba {
+  margin-top: 2%;
+  margin-bottom: 3%;
+  font-family: 'Poppins';
+  font-size: 130%;
+  font-weight: 600;
+  line-height: 120%;
+}
+
+.pieejams {
+  margin-top: 2%;
+  font-family: 'Poppins';
+  font-size: 100%;
+  font-weight: 400;
+  line-height: 120%;
+  color:#4b9b33;
+}
+
+.pasutijums {
+  margin-top: 2%;
+  font-family: 'Poppins';
+  font-size: 100%;
+  font-weight: 300;
+  line-height: 120%;
+  color:#000000;
+}
+
+.tehniskais {
+  margin-top: 2%;
+  font-family: 'Poppins';
+  font-size: 100%;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+.teksts {
+  margin-top: 2%;
+  font-family: 'Poppins';
+  font-size: 100%;
+  line-height: 120%;
 }
 
 .virsraksts {
@@ -23,11 +83,35 @@
 .mazvirs {
     font-family: 'Roboto', sans-serif;
     font-size: 200%;
+    ; 
+}
+
+.vairakinfo {
+  font-family: 'Poppins';
+  font-size: 100%;
+  color: #ffffff;
+}
+
+.bluebor {
+    border-bottom: #0087ca 5px solid;
+}
+
+.greenbor {
+    border-bottom: #0c790c 5px solid;
+}
+
+.navybor {
+    border-bottom: navy 5px solid;
 }
 
 .mazakaisvirs {
     font-family: 'Roboto', sans-serif;
     font-size: 150%;
+    vertical-align: top;
+}
+
+td {
+  vertical-align: top;
 }
 
 header{
@@ -39,14 +123,18 @@ header{
     color:#ffffff;
 }
 
+
+.attels {
+  width:100%;
+  margin-top:3%;
+}
 .ieksa {
     width: 100%;
     height: 100%;
     margin: 0 auto;
 }
 .pirmais {
-    margin-left: 4%;
-
+    margin-left: 4%
 }
 .tabula {
     table-layout: fixed;
@@ -134,13 +222,47 @@ header nav ab{
     text-decoration: underline;
 }
 
-header nav .button{
-    background-color: #1ab26b;
+.button{
+    background-color: #000000;
     color: #FFF;
     padding: 10px 20px;
     border-radius: 4px;
+    float:right;
+    margin-right:3%;
+    margin-top: 3%;
 }
 
-header nav .button:hover{
+.button:hover{
     filter: brightness(1.05);
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    height: auto;
+  }
+
+.centered {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
+.attelsvirs {
+    width: 100%;
+    filter: brightness(50%);
+}
+
+.apakslin {
+    border-bottom: #4b9b33 5px solid;
+    margin-bottom: 5px;
+    box-sizing:border-box;
+}
+
+.konteineris {
+    display: inline-block;
+    text-align: left;
 }
