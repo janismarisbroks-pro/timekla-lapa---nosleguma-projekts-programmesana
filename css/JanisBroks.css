@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.marginraksts {
+    position:relative;
+    left: -20%;
+    margin-bottom: 4%;
+    padding-top: 2%;
+    border-bottom: #0087ca 5px solid;
+}
+
+
+.cellpad {
+    padding-top: 3%;
+}
+
+.floatr {
+  float:right;
+  width: 50%;
+  margin-left: 3%;
+  margin-right: 3%
+}
+
+.cena {
+  margin-top: 3%;
+  font-family: 'Poppins';
+  font-size: 130%;
+  font-weight: 800;
+  line-height: 120%;
+}
+
+.pieejamiba {
+  margin-top: 2%;
+  margin-bottom: 3%;
+  font-family: 'Poppins';
+  font-size: 130%;
+  font-weight: 600;
+  line-height: 120%;
+}
+
+.pieejams {
+  margin-top: 2%;
+  font-family: 'Poppins';
+  font-size: 100%;
+  font-weight: 400;
+  line-height: 120%;
+  color:#4b9b33;
+}
+
+.pasutijums {
+  margin-top: 2%;
+  font-family: 'Poppins';
+  font-size: 100%;
+  font-weight: 300;
+  line-height: 120%;
+  color:#000000;
+}
+
+.tehniskais {
+  margin-top: 2%;
+  font-family: 'Poppins';
+  font-size: 100%;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+.teksts {
+  margin-top: 2%;
+  font-family: 'Poppins';
+  font-size: 100%;
+  line-height: 120%;
+}
+
+.virsraksts {
+    font-family: 'Roboto', sans-serif;
+    font-size: 250%;
+}
+
+.mazvirs {
+    font-family: 'Roboto', sans-serif;
+    font-size: 200%;
+    ; 
+}
+
+.vairakinfo {
+  font-family: 'Poppins';
+  font-size: 100%;
+  color: #ffffff;
+}
+
+.bluebor {
+    border-bottom: #0087ca 5px solid;
+}
+
+.greenbor {
+    border-bottom: #0c790c 5px solid;
+}
+
+.navybor {
+    border-bottom: navy 5px solid;
+}
+
+.mazakaisvirs {
+    font-family: 'Roboto', sans-serif;
+    font-size: 150%;
+    vertical-align: top;
+}
+
+td {
+  vertical-align: top;
+}
+
+header{
+    width: 100vw;
+    height: 120px;
+    border-bottom: solid 1px rgba(16, 16, 16, 0.3);
+    font-family: 'Poppins';
+    font-size: 120%;
+    color:#ffffff;
+}
+
+
+.attels {
+  width:100%;
+  margin-top:3%;
+}
+.ieksa {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+.pirmais {
+    margin-left: 4%
+}
+.tabula {
+    table-layout: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+th {
+    width: 50%;
+}
+
+.hover-underline-animation {
+    position: relative;
+    color: #0087ca;
+  }
+  
+  .hover-underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 5px;
+    bottom: 0;
+    left: 0;
+    background-color: #4b9b33;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  
+header .inner{
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    background-color: rgb(8, 112, 160);
+}
+
+header .logo{
+    display: table;
+    height: 100%;
+    float: left;
+}
+
+header .logo div{
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+header .logo img{
+    height: 120px;
+    margin-top: 0px;
+}
+
+header nav{
+    float: right;
+    height: 100%;
+}
+
+header nav li{
+    display: table;
+    height: 100%;
+    float: left;
+    margin-right: 50px;
+}
+
+header nav li:last-of-type{
+    margin-right: 100px;
+}
+
+header nav span {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+header nav a{
+    color: #ffffff;
+}
+header nav ab{
+    text-decoration: underline;
+}
+
+.button{
+    background-color: #000000;
+    color: #FFF;
+    padding: 10px 20px;
+    border-radius: 4px;
+    float:right;
+    margin-right:3%;
+    margin-top: 3%;
+}
+
+.button:hover{
+    filter: brightness(1.05);
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    height: auto;
+  }
+
+.centered {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
+.attelsvirs {
+    width: 100%;
+    filter: brightness(50%);
+}
+
+.apakslin {
+    border-bottom: #4b9b33 5px solid;
+    margin-bottom: 5px;
+    box-sizing:border-box;
+}
+
+.konteineris {
+    display: inline-block;
+    text-align: left;
+}
