@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+header{
+    width: 100vw;
+    height: 120px;
+    border-bottom: solid 1px rgba(16, 16, 16, 0.3);
+    font-family: 'Poppins';
+    font-size: 120%;
+    color:#ffffff;
+}
+
+.hover-underline-animation {
+    position: relative;
+    color: #0087ca;
+  }
+  
+  .hover-underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 5px;
+    bottom: 0;
+    left: 0;
+    background-color: #4b9b33;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  
+header .inner{
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    background-color: rgb(8, 112, 160);
+}
+
+header .logo{
+    display: table;
+    height: 100%;
+    float: left;
+}
+
+header .logo div{
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+header .logo img{
+    height: 120px;
+    margin-top: 0px;
+}
+
+header nav{
+    float: right;
+    height: 100%;
+}
+
+header nav li{
+    display: table;
+    height: 100%;
+    float: left;
+    margin-right: 50px;
+}
+
+header nav li:last-of-type{
+    margin-right: 100px;
+}
+
+header nav span {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+header nav a{
+    color: #ffffff;
+}
+header nav ab{
+    text-decoration: underline;
+}
+
+header nav .button{
+    background-color: #1ab26b;
+    color: #FFF;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+header nav .button:hover{
+    filter: brightness(1.05);
+}
+
+.infoteksts {
+    position:relative;
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    margin: auto;
+    font-family: 'Poppins';
+
+}
+
+.kontaktinfo {
+    position:relative;
+    font-size: 30px;
+    margin-left:15%;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins';
+
+}
+
+.contact {
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 15%;
+    margin-top: -5%;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.windbilde {
+    position: relative;
+    margin-left: 91%;
+    padding: 0;
+    height: 500px;
+
+}
+
+.parmums {
+    position:relative;
+    font-size: 40px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    margin: auto;
+    font-family: 'Poppins';
+
+}
